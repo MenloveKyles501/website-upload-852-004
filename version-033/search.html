@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>搜索筛选-国产最新电视剧-最新剧集片库-高清剧集在线播放</title>
+  <meta name="description" content="按片名、地区、年份和标签搜索国产最新电视剧与高清剧集。">
+  <meta name="keywords" content="国产最新电视剧,国产电视剧,最新剧集,高清剧集,电视剧更新,热门剧集">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-row">
+      <a class="site-logo" href="index.html" aria-label="高清剧集大全">
+        <span class="logo-mark">▶</span>
+        <span class="logo-text">高清剧集大全</span>
+      </a>
+      <nav class="nav-links" aria-label="主导航">
+        <a class="nav-link" href="index.html">首页</a>
+        <a class="nav-link" href="categories.html">分类</a>
+                <a class="nav-link" href="categories/guochan-drama.html">国产新剧</a>
+        <a class="nav-link" href="categories/hongkong-taiwan.html">港台精选</a>
+        <a class="nav-link" href="categories/japan-korea.html">日韩剧场</a>
+        <a class="nav-link" href="categories/euro-american.html">欧美片库</a>
+        <a class="nav-link" href="categories/suspense-crime.html">悬疑犯罪</a>
+        <a class="nav-link" href="ranking.html">排行</a>
+      </nav>
+      <form class="header-search" action="search.html" method="get">
+        <label class="sr-only" for="header-q-search">搜索影视作品</label>
+        <input id="header-q-search" type="search" name="q" placeholder="搜索影视作品...">
+        <button type="submit" aria-label="搜索">⌕</button>
+      </form>
+      <button class="mobile-toggle" type="button" aria-label="打开导航" data-mobile-toggle>☰</button>
+    </div>
+    <div class="mobile-panel" data-mobile-panel>
+      <a href="index.html">首页</a>
+      <a href="categories.html">分类总览</a>
+            <a href="categories/guochan-drama.html">国产新剧</a>
+      <a href="categories/hongkong-taiwan.html">港台精选</a>
+      <a href="categories/japan-korea.html">日韩剧场</a>
+      <a href="categories/euro-american.html">欧美片库</a>
+      <a href="categories/suspense-crime.html">悬疑犯罪</a>
+      <a href="categories/romance-comedy.html">爱情喜剧</a>
+      <a href="ranking.html">排行榜</a>
+      <form class="mobile-search" action="search.html" method="get">
+        <input type="search" name="q" placeholder="搜索片名、标签、地区">
+        <button type="submit">搜索</button>
+      </form>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero search-hero">
+      <div class="container page-hero-content">
+        <span class="eyebrow">Search</span>
+        <h1>搜索与筛选</h1>
+        <p>支持片名、简介、地区、年份、类型、标签与分类组合检索。</p>
+      </div>
+    </section>
+    <section class="section-block">
+      <div class="container">
+        <div class="search-panel">
+          <form class="search-filter-form" data-search-filter-form>
+            <label>
+              <span>关键词</span>
+              <input type="search" name="q" data-search-input placeholder="输入片名、标签、地区或年份">
+            </label>
+            <label>
+              <span>年份</span>
+              <select name="year" data-year-filter>
+                <option value="">全部年份</option>
+              <option value="2030">2030</option>
+              <option value="2029">2029</option>
+              <option value="2028">2028</option>
+              <option value="2027">2027</option>
+              <option value="2026">2026</option>
+              <option value="2025">2025</option>
+              <option value="2024">2024</option>
+              <option value="2023">2023</option>
+              <option value="2022">2022</option>
+              <option value="2021">2021</option>
+              <option value="2020">2020</option>
+              <option value="2019">2019</option>
+              <option value="2018">2018</option>
+              <option value="2017">2017</option>
+              <option value="2016">2016</option>
+              <option value="2015">2015</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
+              <option value="2011">2011</option>
+              </select>
+            </label>
+            <label>
+              <span>类型</span>
+              <select name="type" data-type-filter>
+                <option value="">全部类型</option>
+              <option value="剧集">剧集</option>
+              <option value="动画">动画</option>
+              <option value="电影">电影</option>
+              <option value="电视剧">电视剧</option>
+              <option value="TV Series">TV Series</option>
+              <option value="纪录片">纪录片</option>
+              <option value="动画剧集">动画剧集</option>
+              <option value="TV剧集">TV剧集</option>
+              <option value="动画电影">动画电影</option>
+              <option value="短片">短片</option>
+              <option value="网络电影">网络电影</option>
+              <option value="纪录片/传记">纪录片/传记</option>
+              <option value="TV 剧集">TV 剧集</option>
+              <option value="TV动画">TV动画</option>
+              <option value="动漫">动漫</option>
+              <option value="网剧">网剧</option>
+              <option value="剧集/流媒体">剧集/流媒体</option>
+              <option value="动画短片">动画短片</option>
+              <option value="剧集/喜剧">剧集/喜剧</option>
+              <option value="综艺">综艺</option>
+              <option value="电视剧/网剧">电视剧/网剧</option>
+              <option value="动画特辑">动画特辑</option>
+              <option value="网络剧">网络剧</option>
+              <option value="电视剧/衍生剧">电视剧/衍生剧</option>
+              </select>
+            </label>
+            <label>
+              <span>分类</span>
+              <select name="category" data-category-filter>
+                <option value="">全部分类</option>
+              <option value="国产新剧">国产新剧</option>
+              <option value="港台精选">港台精选</option>
+              <option value="日韩剧场">日韩剧场</option>
+              <option value="欧美片库">欧美片库</option>
+              <option value="悬疑犯罪">悬疑犯罪</option>
+              <option value="爱情喜剧">爱情喜剧</option>
+              <option value="动作冒险">动作冒险</option>
+              <option value="奇幻科幻">奇幻科幻</option>
+              <option value="家庭剧情">家庭剧情</option>
+              <option value="动画综艺">动画综艺</option>
+              <option value="历史古装">历史古装</option>
+              <option value="口碑热榜">口碑热榜</option>
+              </select>
+            </label>
+            <button type="submit">筛选</button>
+          </form>
+          <div class="search-summary" data-search-summary>正在载入影片数据</div>
+        </div>
+        <div class="movie-grid" data-search-results></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <section>
+        <div class="footer-logo">
+          <span class="logo-mark">▶</span>
+          <span>高清剧集大全</span>
+        </div>
+        <p>整理国产最新电视剧内容，包含近期更新剧集与热门片单，便于查看新剧栏目。</p>
+      </section>
+      <section>
+        <h3>快速导航</h3>
+        <ul>
+          <li><a href="index.html">首页</a></li>
+          <li><a href="categories.html">分类总览</a></li>
+          <li><a href="ranking.html">排行榜</a></li>
+          <li><a href="search.html">搜索筛选</a></li>
+        </ul>
+      </section>
+      <section>
+        <h3>热门分类</h3>
+        <ul>
+            <li><a href="categories/guochan-drama.html">国产新剧</a></li>
+            <li><a href="categories/hongkong-taiwan.html">港台精选</a></li>
+            <li><a href="categories/japan-korea.html">日韩剧场</a></li>
+            <li><a href="categories/euro-american.html">欧美片库</a></li>
+            <li><a href="categories/suspense-crime.html">悬疑犯罪</a></li>
+            <li><a href="categories/romance-comedy.html">爱情喜剧</a></li>
+        </ul>
+      </section>
+      <section>
+        <h3>片库关键词</h3>
+        <p>国产最新电视剧、高清剧集、热门剧集、电视剧更新、最新剧集片库。</p>
+      </section>
+    </div>
+  </footer>
+  <script src="assets/search-data.js"></script>
+  <script src="assets/app.js" defer></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
